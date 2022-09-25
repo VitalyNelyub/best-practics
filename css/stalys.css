@@ -72,26 +72,20 @@ button {
   color: inherit;
 }
 
-
 /* -------------------------------HEADER--------------------------*/
 
-
 .header {
-
 }
 
-.header .container{
+.header .container {
   display: flex;
   align-items: center;
-  
 }
 
 .header-logo {
-
 }
 
 .header-nav {
-
 }
 
 .header-list {
@@ -99,14 +93,30 @@ button {
   align-items: center;
   /* gap: 30px; */
   /* column-gap: 30px; */
-  
 }
 
 .header-item:not(:last-child) {
   margin-right: 30px;
-
 }
 
 .header-link {
-  /* margin-right: 30px; */
+  display: inline-block;
+  padding: 30px 0;
+  outline: 2px solid green;
+}
+.header-link:hover,
+.header-link:focus {
+  color: red;
+}
+
+/* ---------------------HERO--------------------- */
+
+.hero {
+}
+
+.hero-title {
+}
+.hero-text {
+}
+.hero-button {
 }
