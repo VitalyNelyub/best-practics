@@ -76,14 +76,37 @@ button {
 /* -------------------------------HEADER--------------------------*/
 
 
-.header {}
+.header {
 
-.header-logo {}
+}
 
-.header-nav {}
+.header .container{
+  display: flex;
+  align-items: center;
+  
+}
 
-.header-list {}
+.header-logo {
 
-.header-item {}
+}
 
-.header-link {}
+.header-nav {
+
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  /* gap: 30px; */
+  /* column-gap: 30px; */
+  
+}
+
+.header-item:not(:last-child) {
+  margin-right: 30px;
+
+}
+
+.header-link {
+  /* margin-right: 30px; */
+}
